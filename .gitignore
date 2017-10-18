@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# vscode
+.vscode*
+
+# other
+#  Test files, scripts, etc for development purposes
+data
