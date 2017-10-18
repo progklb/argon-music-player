@@ -1,6 +1,6 @@
-# py-terminal-music-player
+# Argon Music Player
 
-A terminal-based music player for Linux.
+A terminal-based music player for Unix.
 **Note: This is still a work in progress.**
 
 ### Commands
