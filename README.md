@@ -1,6 +1,7 @@
 # Argon Music Player
 
 A terminal-based music player for Unix.
+
 **Note: This project is dead.**
 
 ### Commands
@@ -32,8 +33,8 @@ PLAYLIST
    r             -all | -a                     clears the current playlist
    
    p | play                                    plays/pauses the current track
-   p              idx                          plays the track in the playlist at the specified index
-   p              -f | -file    filename       plays the file specified without adding it to the current playlist
+   p             idx                           plays the track in the playlist at the specified index
+   p             -f | -file    filename        plays the file specified without adding it to the current playlist
 
    s | stop                                    stops playback of the currently playing track
 ```
