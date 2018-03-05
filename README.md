@@ -1,7 +1,7 @@
 # Argon Music Player
 
 A terminal-based music player for Unix.
-**Note: This is still a work in progress.**
+**Note: This project is dead.**
 
 ### Commands
 #### Quick controls
@@ -21,21 +21,21 @@ In order to activate the command line, ":" must be provided as input. A command 
 GENERAL
    q  | quit                                   safely exits the application
    h  | help                                   displays information to navigate to the mode:help view
-   rf | refresh                               request a full redraw of the screen
-   mode         [help | details]              sets the current mode to that specified
+   rf | refresh                                request a full redraw of the screen
+   mode          [help | details]              sets the current mode to that specified
    
 PLAYLIST
-   a | add      filename [filename ...]       adds the specified files to the playlist
-   a            -dir                          adds all files in the current directory
+   a | add       filename [filename ...]       adds the specified files to the playlist
+   a             -dir                          adds all files in the current directory
 
-   r | remove   idx                           removes the playlist item at the specified index
-   r            -all | -a                     clears the current playlist
+   r | remove    idx                           removes the playlist item at the specified index
+   r             -all | -a                     clears the current playlist
    
-   p | play                                   plays/pauses the current track
-   p             idx                          plays the track in the playlist at the specified index
-   p             -f | -file    filename       plays the file specified without adding it to the current playlist
+   p | play                                    plays/pauses the current track
+   p              idx                          plays the track in the playlist at the specified index
+   p              -f | -file    filename       plays the file specified without adding it to the current playlist
 
-   s | stop                                   stops playback of the currently playing track
+   s | stop                                    stops playback of the currently playing track
 ```
 
 ### Dependencies
@@ -55,8 +55,8 @@ PLAYLIST
 ### To Do (Development)
 * UI does not refresh continuously (seek bar / timestamp do not update continuously)
 * Playlist scrolling
-* Track queueing (current only a single track will play)
+* Track queueing (currently only a single track will play)
 * Shuffle / repeat mode
-* Browse file directory
+* Browse directory
 * Add files recursively
-* Add files in specified directory (only current dir is supported)
+* Add files in specified directory (only current directory is supported)
